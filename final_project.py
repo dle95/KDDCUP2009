@@ -1,29 +1,5 @@
 #KDD Cup 2009: Customer Relationship Prediction
 
-#next steps 
-#check other papers
-#check other algorithms!!
-#try grid search!!
-#check sklearn other functions
-#replicate the medium article
-#start writing
-#build figures
-#check how to oversample
-#cross validation for grid models 
-
-#today: gridsearch, NN with lasso
-
-#grid results:
-#Upselling: {'max_depth': 7, 'n_estimators': 400}
-#0.9761404711173494
-#Churn:{'max_depth': 7, 'n_estimators': 450}
-#0.9482977402813088
-# Appatency {'max_depth': 7, 'n_estimators': 300}
-#0.9827817623766519
-
-#best solution: n_estimators=300, max_depth=2
-
-
 #Imports
 import pandas as pd
 import numpy as np
